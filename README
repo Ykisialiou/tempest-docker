@@ -1,0 +1,1 @@
+If you look at testing_results file and see errors, it is not necessary you Openstack problems. Sometimes it may be connected with  tempest misconfiguration or bugs.
