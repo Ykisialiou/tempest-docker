@@ -1,6 +1,10 @@
 It's better to run tempest on didicated VM inside you Openstack deployment
-
-We created docker parent image with Tempest and prerequisites. It located in  ykisialiou/tempest-parent repo. Tempest has quite large and complicated config, used for all test sets, unfortunately it is full of sensitive data (such as API accessing user with credentials). So, it’s would be better to configure  a lot of options on your side (users credentials, network options, openstack components and features, used on your installation).  tempest.config is self documented and most of options described well. We also provide you config from our testing environment, maybe it will be useful. 
+We created docker parent image with Tempest and prerequisites. It located in  ykisialiou/tempest-parent repo. 
+Tempest has quite large and complicated config, used for all test sets, unfortunately it is full of sensitive
+data (such as API accessing user with credentials). So, it’s would be better to configure  a lot of options on 
+your side (users credentials, network options, openstack components and features, used on your installation).  
+tempest.config is self documented and most of options described well. We also provide you config from our testing 
+environment, maybe it will be useful. 
 
 The testing process will consist of several steps on your side:
 
