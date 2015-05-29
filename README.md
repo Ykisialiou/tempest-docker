@@ -26,8 +26,6 @@ If you look at testing_results file and see errors, it is not necessary you Open
 ### Configuration options notes
 
 
-
-                       
 =======
 Options, which should be paid attention to is located below corresponding sections. 
 ```
