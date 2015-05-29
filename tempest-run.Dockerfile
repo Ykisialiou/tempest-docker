@@ -1,4 +1,4 @@
-FROM ykisialiou/tempest-for-openstack:latest 
+FROM ykisialiou/tempest-parent:latest 
 
  
 MAINTAINER Eugene Kiselev <yauheni.kisialiou@altoros.com>
