@@ -10,4 +10,4 @@ COPY tempest.conf /tempest/tempest-master/etc/tempest.conf
 
 # Run tests 
 
-CMD ["/tempest/tempest-master/run_tempest.sh"]
+CMD ["/tempest/tempest-master/run_tempest.sh", "-sV"]
