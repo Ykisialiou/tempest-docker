@@ -1,30 +1,10 @@
-<<<<<<< HEAD:README
-It's better to run tempest on didicated VM inside you Openstack deployment
-We created docker parent image with Tempest and prerequisites. It located in  ykisialiou/tempest-parent repo. 
-Tempest has quite large and complicated config, used for all test sets, unfortunately it is full of sensitive
-data (such as API accessing user with credentials). So, it’s would be better to configure  a lot of options on 
-your side (users credentials, network options, openstack components and features, used on your installation).  
-tempest.config is self documented and most of options described well. We also provide you config from our testing 
-environment, maybe it will be useful. 
 
-The testing process will consist of several steps on your side:
-
-
-1) Fill necessary options in tempest.conf;
-2) Create working directory and put tempest.conf there;
-3) Put tempest-run.Dockerfile to working directory;
-4) Build docker image with smth like
-sudo docker build --file tempest-run.Dockerfile -t yourrepo/tempest-run .
-5) Run docker image  by executing smth like
-sudo docker run yourrepo/tempest-run > testing_results
-6) Sent us testing_results file
 =======
 # Acceptance tests for OpenStack
 
 ### Description
 
 This repo contains Dockerfile to build and run a simple set of acceptance tests for OpenStack. This projects uses modified smoke tests of [openstack/tempest](https://github.com/openstack/tempest) project.
->>>>>>> 7c39b44a04289aacc391f22169b4a40f15ce8264:README.md
 
 ### Pre-words
 
@@ -45,11 +25,10 @@ If you look at testing_results file and see errors, it is not necessary you Open
 
 ### Configuration options notes
 
-<<<<<<< HEAD:README
-                       Some tempest configuration options notes
+
+
                        
 =======
->>>>>>> 7c39b44a04289aacc391f22169b4a40f15ce8264:README.md
 Options, which should be paid attention to is located below corresponding sections. 
 ```
 [service_available] section
